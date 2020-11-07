@@ -1,0 +1,151 @@
+
+body {
+    background: #ffffff;
+    font: 14px arial;
+    margin: 10px;
+    padding: 10px;
+     
+  }
+  
+  header{
+      background: url("C:\Users\bejok\Desktop\assignment\images.jpg"), url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg); 
+      background-color: #583759;
+      text-align: center;
+      padding: 30px;
+  }
+  
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #0006cc;
+    font-size: 250%
+  }
+  
+  h2{
+    font-size: 180%;
+    text-transform: uppercase;
+    color: #0006cc;
+    }
+    
+    nav a{ 
+      display: inline-block; 
+      text-align: center;
+      font-weight: bold;
+      color: #006400;
+      background: #99ffff;
+      border: 2px solid transparent;
+      border-radius: 25px;
+      width: 8%;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-bottom: 20px;
+      text-decoration: none;
+      font-size: 150%; 
+      
+  }
+  
+  .current{
+    color: #006400;
+    background: #ffffff;
+  }
+   
+  nav a:hover{
+    background: #a86cc1;
+    color: #0006cc;
+  }
+  
+  nav a:focus{
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  /* The link to the current page should be styled differently from the other links (using class = "active') */ 
+  .active {
+    background: #FFFFFF; /* White */
+    color: #6600ff;
+    text-transform: uppercase;
+  }
+  
+  
+  main{
+    background: #008080;
+    width: 18%;
+    height: 1800px;  
+    
+  }
+  
+  aside class{
+    display: block;
+    width: 20%;
+    height: 200px;
+    margin-top: 8px;
+    float: right;
+  }
+  
+  img{ 
+    display: inline-block;
+    width: 80%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 3px solid #000000;
+    
+  }
+  
+  section{
+    position: absolute;
+    right: 50px;
+    left: 400px;
+    width: 1450px;
+    margin-top: -720px;
+    justify-content: center;
+    }
+
+p{
+  font-size: 20px;
+}
+  
+  table,th,td{
+  
+      border: 1px solid #ffffff;
+  }
+  table{
+      margin-left: 10%;
+      table-layout: auto;
+      width: 900px;
+      font-family: "Times New Roman", Sans-Serif, Arial;
+      font-size: 20px;
+      line-height: 150%;
+      text-align: center;
+  }
+  th{
+      border-top-left-radius:7px;
+      border-top-right-radius:7px; 
+      background: linear-gradient(#99ffff,#000000);
+      color: #ffffff;
+  }
+  
+  tr td{
+      background-color:#99ffff;
+  }
+  
+  tr{
+          opacity: 0.6;
+  
+  }
+  tr.header{
+      opacity: 1;
+  }
+  
+  tr:hover{
+      opacity: 1;
+  }
+  th:first-child, td:first-child{
+      text-align: left;
+  }
+  td{
+      color: #000000;
+      text-shadow: 4px 4px 5px #b4b4b4;
+  
+  }
